@@ -45,4 +45,19 @@ const user2 = {
     difficulty: difficulty ?? 1,
 };
 console.log(user2);
+const elem = null;
+const elem1 = elem;
+function algo(x) {
+    if (typeof x === "number") {
+    }
+    if (typeof x === "string") {
+    }
+}
+function procesa(algo) {
+    if (typeof algo === "string") {
+        algo.toUpperCase();
+    }
+    if (algo instanceof String) {
+    }
+}
 //# sourceMappingURL=03_tipos_avanzados.js.map
